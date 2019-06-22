@@ -1,0 +1,41 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`About page should render correctly 1`] = `
+<About>
+  <Layout
+    sidebar={<Sidebar />}
+  >
+    <div
+      className="sidebar"
+    >
+      <Sidebar>
+        <ul>
+          <li>
+            sidebar mock
+          </li>
+        </ul>
+      </Sidebar>
+    </div>
+    <main>
+      <h1>
+        About
+      </h1>
+      <Counter
+        count={10}
+      >
+        <p>
+          Counted to
+           
+          10
+        </p>
+      </Counter>
+      <button
+        onClick={[Function]}
+        type="button"
+      >
+        Click here to add to the counter!
+      </button>
+    </main>
+  </Layout>
+</About>
+`;

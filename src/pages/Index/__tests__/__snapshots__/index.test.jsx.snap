@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Index page should render correctly 1`] = `
+<Index>
+  <Layout
+    sidebar={<Sidebar />}
+  >
+    <div
+      className="sidebar"
+    >
+      <Sidebar>
+        <ul>
+          <li>
+            sidebar mock
+          </li>
+        </ul>
+      </Sidebar>
+    </div>
+    <main>
+      <h1>
+        Index
+      </h1>
+    </main>
+  </Layout>
+</Index>
+`;
